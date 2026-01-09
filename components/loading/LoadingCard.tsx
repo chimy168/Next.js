@@ -19,16 +19,4 @@ export default function LoadingCard() {
 }
 
 
-'use client';
 
-import { useRouter } from 'next/navigation';
-
-export default function GoToDashboard() {
-  const router = useRouter();
-
-  return (
-    <button onClick={() => router.push('/dashboard')}>
-      Dashboard
-    </button>
-  );
-}
